@@ -1,0 +1,137 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_1000838",
+      "label" : "bile reflux",
+      "description" : [ "Retrograde bile flow. Reflux of bile can be from the duodenum to the stomach (DUODENOGASTRIC REFLUX); to the esophagus (GASTROESOPHAGEAL REFLUX); or to the PANCREAS.", "Retrograde bile flow. Reflux of bile can be from the duodenum to the stomach (duodenogastric reflux); to the esophagus (gastroesophageal reflux); or to the pancreas." ],
+      "annotation" : {
+        "database_cross_reference" : [ "DOID:12237", "MONDO:0006677", "MSH:D001655", "MESH:D001655", "UMLS:C0005403" ],
+        "exactMatch" : [ "http://linkedlifedata.com/resource/umls/id/C0005403", "http://purl.obolibrary.org/obo/DOID_12237", "http://identifiers.org/mesh/D001655" ],
+        "id" : [ "EFO:1000838" ],
+        "term editor" : [ "Dani Welter" ]
+      },
+      "synonyms" : [ "Bile Reflux", "bile reflux" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_1000838",
+      "obo_id" : "EFO:1000838",
+      "in_subset" : null,
+      "obo_definition_citation" : [{"definition":"Retrograde bile flow. Reflux of bile can be from the duodenum to the stomach (duodenogastric reflux); to the esophagus (gastroesophageal reflux); or to the pancreas.","oboXrefs":[{"database":"MESH","id":"D001655","description":null,"url":null}]}, {"definition":"Retrograde bile flow. Reflux of bile can be from the duodenum to the stomach (DUODENOGASTRIC REFLUX); to the esophagus (GASTROESOPHAGEAL REFLUX); or to the PANCREAS.","oboXrefs":[{"database":null,"id":"http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern","description":null,"url":"http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern"}]}],
+      "obo_xref" : [{"database":"UMLS","id":"C0005403","description":"MONDO:equivalentTo","url":null}, {"database":"MONDO","id":"0006677","description":null,"url":null}, {"database":"MESH","id":"D001655","description":"MONDO:ontobio","url":null}, {"database":"DOID","id":"12237","description":"http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern","url":null}, {"database":"DOID","id":"12237","description":"MONDO:equivalentTo","url":null}, {"database":"MSH","id":"D001655","description":"http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern","url":null}],
+      "obo_synonym" : [{"name":"bile reflux","scope":"hasExactSynonym","type":null,"xrefs":[]}, {"name":"Bile Reflux","scope":"hasExactSynonym","type":null,"xrefs":[]}],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_1000838"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_1000838/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_1000838/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_1000838/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_1000838/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_1000838/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_1000838/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0009534",
+      "label" : "biliary tract disease",
+      "description" : [ "A disease involving the biliary tree." ],
+      "annotation" : {
+        "closeMatch" : [ "http://identifiers.org/snomedct/5235004", "http://linkedlifedata.com/resource/umls/id/C0005424", "http://identifiers.org/snomedct/155830002", "http://identifiers.org/snomedct/266545005", "http://identifiers.org/snomedct/155832005", "http://identifiers.org/snomedct/266544009" ],
+        "database_cross_reference" : [ "ICD10:K83", "ICD10:K83.9", "MESH:D001660", "DOID:9741", "SCTID:105997008", "MONDO:0004868", "ICD9:576.9" ],
+        "definition_citation" : [ "SCTID:105997008" ],
+        "exactMatch" : [ "http://identifiers.org/snomedct/105997008", "http://identifiers.org/mesh/D001660", "http://purl.obolibrary.org/obo/DOID_9741" ],
+        "has_related_synonym" : [ "disorder of biliary tree" ],
+        "id" : [ "EFO:0009534" ]
+      },
+      "synonyms" : [ "disorder of biliary tree", "biliary tract disease", "disease or disorder of biliary tree", "disease of biliary tree", "biliary tree disease", "biliary tree disease or disorder" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "EFO_0009534",
+      "obo_id" : "EFO:0009534",
+      "in_subset" : null,
+      "obo_definition_citation" : [{"definition":"A disease involving the biliary tree.","oboXrefs":[{"database":null,"id":"http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern","description":null,"url":"http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern"}]}, {"definition":"A disease involving the biliary tree.","oboXrefs":[{"database":"MONDO","id":"DesignPattern","description":null,"url":null}]}],
+      "obo_xref" : [{"database":"DOID","id":"9741","description":"MONDO:equivalentTo","url":null}, {"database":"ICD10","id":"K83.9","description":"http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern","url":null}, {"database":"MONDO","id":"0004868","description":"http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern","url":null}, {"database":"ICD9","id":"576.9","description":"DOID:9741","url":null}, {"database":"ICD9","id":"576.9","description":"http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern","url":null}, {"database":"DOID","id":"9741","description":"http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern","url":null}, {"database":"ICD10","id":"K83","description":"http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern","url":null}, {"database":"MESH","id":"D001660","description":"MONDO:ontobio","url":null}, {"database":"ICD10","id":"K83.9","description":"DOID:9741","url":null}, {"database":"MESH","id":"D001660","description":"http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern","url":null}, {"database":"SCTID","id":"105997008","description":"MONDO:equivalentTo","url":null}],
+      "obo_synonym" : [{"name":"biliary tract disease","scope":"hasExactSynonym","type":null,"xrefs":[]}, {"name":"disease of biliary tree","scope":"hasExactSynonym","type":null,"xrefs":[]}, {"name":"disease of biliary tree","scope":"hasExactSynonym","type":null,"xrefs":[{"database":"MONDO","id":"patterns/location_top","description":null,"url":null}]}, {"name":"biliary tree disease","scope":"hasExactSynonym","type":null,"xrefs":[]}, {"name":"biliary tree disease or disorder","scope":"hasExactSynonym","type":null,"xrefs":[]}, {"name":"disorder of biliary tree","scope":"hasRelatedSynonym","type":null,"xrefs":[{"database":"MONDO","id":"patterns/location_top","description":null,"url":null}]}, {"name":"disease or disorder of biliary tree","scope":"hasExactSynonym","type":null,"xrefs":[]}, {"name":"disorder of biliary tree","scope":"hasExactSynonym","type":null,"xrefs":[]}, {"name":"biliary tree disease","scope":"hasExactSynonym","type":null,"xrefs":[{"database":"MONDO","id":"patterns/location","description":null,"url":null}]}, {"name":"biliary tree disease or disorder","scope":"hasExactSynonym","type":null,"xrefs":[{"database":"MONDO","id":"patterns/location","description":null,"url":null},{"database":"MONDO","id":"design_pattern","description":null,"url":null}]}, {"name":"disorder of biliary tree","scope":"hasExactSynonym","type":null,"xrefs":[{"database":"MONDO","id":"patterns/location_top","description":null,"url":null}]}],
+      "is_preferred_root" : false,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009534"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009534/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009534/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009534/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009534/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009534/jstree"
+        },
+        "children" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009534/children"
+        },
+        "descendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009534/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009534/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009534/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009534/graph"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "first" : {
+      "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms?page=0&size=2"
+    },
+    "self" : {
+      "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms?page=0&size=2"
+    },
+    "next" : {
+      "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms?page=1&size=2"
+    },
+    "last" : {
+      "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms?page=14105&size=2"
+    }
+  },
+  "page" : {
+    "size" : 2,
+    "totalElements" : 28211,
+    "totalPages" : 14106,
+    "number" : 0
+  }
+}

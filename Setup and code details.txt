@@ -1,0 +1,40 @@
+Prerequisites:
+1) PostgreSQL
+2) Python3
+3) Python modules: 
+    psycopg2
+    json ( built in )
+    requests
+4) Changes should be done in the script for following variables that are defined globally
+    size_per_page
+    total_pages_of_terms
+    table_name
+    database_name
+    database_user
+    database_password
+    database_host
+    database_port
+
+
+There are two scripts with slight different functionality:
+1) pipeline_without_referencing_to_mesh_api.py
+2) pipeline_with_mesh_reference.py
+
+Common Functionality: Create a table in given database with the table_name provided if it does not exist.
+                      Gets all the efo terms (as per defined criteria i.e. how many terms are to be retrieved and how many pages in total). 
+                      After retrieving all the relevant info about a term i.e. short_name, synonyms,parent_links and Mesh_ID, it writes 
+                      those data to the table that has been created.
+
+Difference in functionality: 
+            pipeline_without_referencing_to_mesh_api.py -> doesn't refer to mesh database's api. Only adds mesh ID to table.  
+            pipeline_with_mesh_reference.py ->  This script refers to MESH database API to get the label on the basis of mesh id. As cross-referencing 
+                                     to MESH and getting response through it's API was taking too much time hence it can be used as enhancement if need be.
+
+Other Notes:
+1) Short_form of terms is made as the primary key of the table.
+2) If there is no reference to MESH database in response of the "Ontology Lookup Service" then mesh_id or mesh_label will be defined in table as "NA".
+3) Data is written continuously to the table table while getting details of a single term. Data is committed to table after contents of a single term(row) is written to DB.
+4) Sometimes parents link is not available hence try except block is used to mark parents_link as "NA" if not available.
+5) Short_form of terms is made as primary key of the table.If a row already exists with same name as given, the script will skip it.
+6) If content of a term is already in the table(cross referenced with primary key i.e. Short_form) it won't write the data to avoid the duplication. 
+   If short_form doesn't exist it'll create that term's row in table.
